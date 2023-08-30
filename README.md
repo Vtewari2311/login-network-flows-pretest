@@ -19,7 +19,7 @@ To simulate a successful login attempt where the username and password match, us
 ```bash
 curl -X POST https://code.flows.network/lambda/zfqeHdouBX -H "Content-Type: application/json" -d '{"username": "admin", "password": "admin"}'
 ```
-![Success](login success.png)
+![Success](login_success.png)
 
 This will trigger a response indicating success.
 
@@ -33,4 +33,4 @@ curl -X POST https://code.flows.network/lambda/zfqeHdouBX -H "Content-Type: appl
 ```
 
 This will result in a response indicating failure.
-![Failure](login failed.png)
+![Failure](login_failed.png)
