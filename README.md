@@ -8,12 +8,6 @@ This project showcases a straightforward login handler implemented in Rust and d
     "password": "password"
 }
 
-
-```json
-{
-    "username": "username",
-    "password": "password"
-}
 ```
 
 ## Usage
